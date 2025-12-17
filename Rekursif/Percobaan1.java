@@ -23,3 +23,21 @@ public class Percobaan1 {
         System.out.println(faktorialInteratif(5));
     }
 }
+
+/* PERTANYAAN PERCOBAAN 1
+
+1. Apa yang dimaksud dengan fungsi rekursif? 
+    = fungsi yang memanggil dirinya sendiri untuk menyelesaikan suatu masalah. Biasanya,
+    fungsi rekursif punya kondisi berhenti (base case) supaya pemanggilan tidak berlangsung terus-menerus.
+2. Pada Percobaan1, apakah hasil yang diberikan fungsi faktorialRekursif() dan fungsi 
+faktorialIteratif() sama? Jelaskan perbedaan alur jalannya program pada penggunaan 
+fungsi rekursif dan fungsi iteratif!
+    = a.Fungsi rekursif (faktorialRekursif)
+    Program menghitung faktorial dengan cara memanggil fungsi itu sendiri berulang kali sampai mencapai kondisi
+    berhenti. Setelah itu, hasilnya dikembalikan satu per satu dari pemanggilan terakhir ke awal. Alurnya seperti
+    menumpuk lalu dibuka kembali.
+    b. Fungsi iteratif (faktorialIteratif)
+    Program menghitung faktorial dengan perulangan (loop) seperti for atau while. Nilai faktorial dihitung secara
+    langsung dari awal sampai akhir tanpa memanggil fungsi lain.
+
+*/
